@@ -1,0 +1,80 @@
+.flavicon {
+    height: 25px;
+}
+
+.navbar {
+    background-color: #C2EDF2;
+    position: fixed;
+}
+
+.nav-link {
+    color: #212529;
+}
+
+.banner {
+    padding-top: 65px;
+    background-image: url("../images/courtney-cook-66IZaW9LIpI-unsplash.jpg");
+    background-size: cover;
+    height: 330px;
+}
+
+.bannerblock {
+    height: 75%;
+    max-width: 40%;
+    margin: 3% 0 10% 5%;
+}
+
+@media screen and (max-width: 995px) {
+    .bannerblock {
+        min-width: 50%;
+        margin: 3% 0 10% 5%;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .bannerblock {
+        min-width: 80%;
+        margin: 5% 0 10% 5%;
+    }  
+}
+
+.heading {
+    padding: 0 5% 2% 0;
+}
+
+.btn-secondary {
+    margin: 3% 0 0 0;
+}
+
+.btn-primary {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardcontainer {
+    margin: 3% 5% 3% 5%;
+    padding-right: 2em;
+}
+
+.card {
+    width: 18rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .card {
+        width: 110%;
+        min-height: 100%;
+    }
+    
+}
+.card-img-top {
+    background-color: #6FBFBF;
+    padding: .5em 0;
+}
+
+.credits {
+    font-size: x-small;
+    margin: 3% 0 10% 5%;
+}
+
